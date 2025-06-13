@@ -47,6 +47,7 @@ let questions = [
   {
     numb: 5,
     question: "Which key is useful for fitting on tapered shafts?",
+     immg: "img5",
     answer: "Woodruff key",
     options: [
       "Feather key",
@@ -199,6 +200,7 @@ let questions = [
   {
     numb: 18,
     question: "Which file used for delicate and intricate work?",
+     immg: "img18",
     answer: "Swiss pattern file",
     options: [
       "Swiss pattern file",
@@ -278,6 +280,7 @@ let questions = [
   {
     numb: 25,
     question: "What is the use of rotary files?",
+     immg: "img25",
     answer: "Die sinking and mould-making work",
     options: [
       "To finish sharp corners",
@@ -333,6 +336,7 @@ let questions = [
   {
     numb: 30,
     question: "What is used for placing the instruments during working?",
+     immg: "img30",
     answer: "Felt pad",
     options: [
       "Wooden blank",
@@ -355,6 +359,7 @@ let questions = [
   {
     numb: 32,
     question: "Which is used to clean the lapping plate after charging?",
+     immg: "img32",
     answer: "Kerosene",
     options: [
       "Oil",
@@ -434,6 +439,7 @@ let questions = [
   {
     numb: 39,
     question: "What is the direction of frictional force against a motional object?",
+     immg: "img39",
     answer: "Opposite to the object",
     options: [
       "Inclined to the object",
@@ -445,6 +451,7 @@ let questions = [
   {
     numb: 40,
     question: "Which symbol is used to denote co-efficient of friction?",
+     immg: "img40",
     answer: "µ (Meu)",
     options: [
       "α (Alpha)",
@@ -456,6 +463,7 @@ let questions = [
   {
     numb: 41,
     question: "What is the purpose of a lubricant?",
+     immg: "img41",
     answer: "To reduce friction",
     options: [
       "To increase the pressure",
@@ -467,6 +475,7 @@ let questions = [
   {
     numb: 42,
     question: "Which is used to reduce the friction in machine parts?",
+     immg: "img42",
     answer: "Lubricants",
     options: [
       "Kerosene",
@@ -511,6 +520,7 @@ let questions = [
   {
     numb: 46,
     question: "Rivets are generally, specified by____.",
+     immg: "img46",
     answer: "nominal diameter",
     options: [
       "length of rivet",
