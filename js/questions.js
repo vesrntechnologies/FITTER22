@@ -1,578 +1,469 @@
 let questions = [
   {
     numb: 1,
-    question: "Which special file is used in narrow workpieces?",
-    answer: "Pillar file",
-    options: [
-      "Pillar file",
-      "Square file",
-      "Dread naught file",
-      "Swiss pattern file",
-    ]
+    question: "What is the act of joining the slip gauges together for building up sizes?",
+    immg: "img1",
+    answer: "Wringing",
+    options: ["Glazing", "Pinning", "Loading", "Wringing"]
   },
   {
     numb: 2,
-    question: "What is the name of the key shown in the figure?",
+    question: "Which material is used for manufacturing sine bar?",
     immg: "img2",
-    answer: "Feather key",
-    options: [
-      "Sunk key",
-      "Feather key",
-      "Flat saddle key",
-      "Hollow saddle key",
-    ]
+    answer: "Stabilized chromium steel",
+    options: ["Invar steel", "High speed steel", "High carbon steel", "Stabilized chromium steel"]
   },
   {
     numb: 3,
-    question: "What is the purpose of key?",
-    answer: "To transmit torque",
+    question: "What is the specification of sine bar?",
+    immg: "img3",
+    answer: "Distance between centre points of the rollers",
     options: [
-      "To transmit torque",
-      "For assembly purpose",
-      "To lock the assembly part",
-      "To permit clearance between mating parts",
+      "Distance between outer points of the rollers",
+      "Distance between inner points of the rollers",
+      "Distance between centre points of the rollers",
+      "Distance between the edges of the sine bar"
     ]
   },
   {
     numb: 4,
-    question: "What is the taper ratio of Gib head key way?",
-    answer: "1:100",
+    question: "Which one forms the hypotenuse of the triangle while checking with sine bar?",
+    immg: "img4",
+    answer: "Sine bar length",
     options: [
-      "1:19",
-      "1:20",
-      "1:50",
-      "1:100",
+      "Surface plate",
+      "Sine bar width",
+      "Sine bar length",
+      "Slip gauges height"
     ]
   },
   {
     numb: 5,
-    question: "Which key is useful for fitting on tapered shafts?",
-     immg: "img5",
-    answer: "Woodruff key",
+    question: "What is the name of the instrument that measures surface quality shown in the figure?",
+    immg: "img5",
+    answer: "Mechanical surface indicator",
     options: [
-      "Feather key",
-      "Gib head key",
-      "Woodruff key",
-      "Flat saddle key",
+      "Dial test indicator",
+      "Electrical surface indicator",
+      "Electronic surface indicator",
+      "Mechanical surface indicator"
     ]
   },
   {
     numb: 6,
-    question: "Which file is used for lock repair and filing hard notches in keys?",
-    answer: "Warding file",
+    question: "Why manual stroking is preferred for large quantities in honing operation?",
+    immg: "img6",
+    answer: "To keep close tolerance",
     options: [
-      "Pillar file",
-      "Flexible file",
-      "Warding file",
-      "Swiss pattern file",
+      "To reduce cost",
+      "To reduce time",
+      "To keep close tolerance",
+      "To reduce maintenance cost"
     ]
   },
   {
     numb: 7,
-    question: "What is the name of the screw shown in the figure?",
+    question: "Which grade slip gauge is used for precision tool room applications?",
     immg: "img7",
-    answer: "Drive screw",
-    options: [
-      "Grub screw",
-      "Drive screw",
-      "Self taping screw",
-      "Thread cutting screw",
-    ]
+    answer: "Grade I",
+    options: ["Grade 00", "Grade 0", "Grade I", "Grade II"]
   },
   {
     numb: 8,
-    question: "What is the name of the screw driver shown in the figure?",
+    question: "Which material is used to make slip gauge block?",
     immg: "img8",
-    answer: "Offset screw driver",
-    options: [
-      "Offset screw driver",
-      "Philips screw driver",
-      "Standard screw driver",
-      "Heavy duty screw driver",
-    ]
+    answer: "High grade steel",
+    options: ["Tool steel", "Low grade steel", "High grade steel", "High carbon steel"]
   },
   {
     numb: 9,
-    question: "What is the name of the locking device shown in the figure?",
+    question: "Which finishing operation is performed by the tool that rotates and reciprocates simultaneously?",
     immg: "img9",
-    answer: "Spring washer",
-    options: [
-      "Tab washer",
-      "Locking plate",
-      "Lock washer",
-      "Spring washer",
-    ]
+    answer: "Honing",
+    options: ["Drilling", "Honing", "Lapping", "Grinding"]
   },
   {
     numb: 10,
-    question: "Which file is used for finishing sharp corners?",
-    answer: "Barrette file",
-    options: [
-      "Pillar file",
-      "Riffler file",
-      "Barrette file",
-      "Warding file",
-    ]
+    question: "Which precision finishing operation carried out using fine abrasive materials?",
+    immg: "img10",
+    answer: "Lapping",
+    options: ["Filing", "Grinding", "Reaming", "Lapping"]
   },
-  {
+    {
     numb: 11,
-    question: "What is the name of the file shown in the figure?",
+    question: "Which surface is being lapped using the split bush shown in the figure?",
     immg: "img11",
-    answer: "Tinker’s file",
+    answer: "External cylindrical surface",
     options: [
-      "Tinker’s file",
-      "Crossing file",
-      "Swiss pattern file",
-      "Dread naught file",
+      "External cylindrical surface",
+      "Flate surface",
+      "Internal cylindrical surface",
+      "External taper surface"
     ]
   },
   {
     numb: 12,
-    question: "What is the name of the file shown in the figure?",
+    question: "What is the name of the part marked as ‘X’ shown in the figure?",
     immg: "img12",
-    answer: "Warding file",
+    answer: "Length of sine bar",
     options: [
-      "Pillar file",
-      "Warding file",
-      "Dread naught file",
-      "Swiss pattern file",
+      "Length of sine bar",
+      "Drilled holes",
+      "Contact rollers",
+      "Width"
     ]
   },
   {
     numb: 13,
-    question: "What is the name of the nut shown in the figure?",
+    question: "What is the name of the part marked as ‘X’ shown in the figure?",
     immg: "img13",
-    answer: "Castle nut",
+    answer: "Height of slip gauge",
     options: [
-      "Castle nut",
-      "Slotted nut",
-      "T - Nut",
-      "Cap nut",
+      "Height of slip gauge",
+      "Length of sine bar",
+      "Datum surface",
+      "Taper angle"
     ]
   },
   {
     numb: 14,
-    question: "Which type of screw is shown in the figure?",
+    question: "What is the height of slip gauge (q = 25° = 0.4226)?",
     immg: "img14",
-    answer: "Hexagon socket head cap screw",
-    options: [
-      "Hexagon socket head cap screw",
-      "Hexagon head screw",
-      "Counter sink head screw",
-      "Raised cheese hand screw",
-    ]
+    answer: "42.26",
+    options: ["41.26", "42.26", "43.26", "44.26"]
   },
   {
     numb: 15,
-    question: "What is the name of the file shown in the figure?",
+    question: "Which grade of slip gauge is used for inspection?",
     immg: "img15",
-    answer: "Swiss pattern file",
+    answer: "Grade ‘0’ accuracy",
     options: [
-      "Pillar file",
-      "Warding file",
-      "Swiss pattern file",
-      "Dread naught file",
+      "Grade I accuracy",
+      "Grade ‘0’ accuracy",
+      "Grade ‘00’ accuracy",
+      "Grade II accuracy"
     ]
   },
   {
     numb: 16,
-    question: "What is the name of the gauge shown in the figure?",
+    question: "Which process is carried out with abrasive sticks to correct the profile of internal cylindrical surfaces?",
     immg: "img16",
-    answer: "Snap gauge",
-    options: [
-      "Taper gauge",
-      "Snap gauge",
-      "Progressive plug gauge",
-      "Double end plug gauge",
-    ]
+    answer: "Honing",
+    options: ["Lapping", "Honing", "Grinding", "Filing"]
   },
   {
     numb: 17,
-    question: "Which file that has sharp and parallel teeth is used on soft and non-metallic materials?",
-    answer: "Dread naught file",
+    question: "Which is the hardest of all abrasive materials?",
+    immg: "img17",
+    answer: "Diamond",
     options: [
-      "Pillar file",
-      "Tinker file",
-      "Dread naught file",
-      "Warding file",
+      "Silicon carbide",
+      "Boron carbide",
+      "Diamond",
+      "Aluminium oxide"
     ]
   },
   {
     numb: 18,
-    question: "Which file used for delicate and intricate work?",
-     immg: "img18",
-    answer: "Swiss pattern file",
+    question: "What is the name of the instrument shown in the figure?",
+    immg: "img18",
+    answer: "Height gauge with slip gauge holder",
     options: [
-      "Swiss pattern file",
-      "Pillar file",
-      "Dread naught file",
-      "Warding file",
+      "Depth vernier gauge",
+      "Vernier height gauge",
+      "Clamp type height gauge",
+      "Height gauge with slip gauge holder"
     ]
   },
   {
     numb: 19,
-    question: "What is the purpose of dowel pins in assembly?",
-    answer: "Perfect alignment & quicker disassembly",
+    question: "Which grade of slip gauge is used in general workshop?",
+    immg: "img19",
+    answer: "Grade II accuracy",
     options: [
-      "Perfect alignment & quicker disassembly",
-      "Imperfect alignment",
-      "Slow disassembly",
-      "Easy maintenance",
+      "Grade I accuracy",
+      "Grade II accuracy",
+      "Grade ‘0’ accuracy",
+      "Grade ‘00’ accuracy"
     ]
   },
   {
     numb: 20,
-    question: "What is the name of the part of tubular box spanner marked as x shown in the figure?",
+    question: "What is the name of the slip gauge grade used for inspection?",
     immg: "img20",
-    answer: "Tommy bar",
-    options: [
-      "Handle",
-      "Body",
-      "Head",
-      "Tommy bar",
-    ]
+    answer: "Grade '0'",
+    options: ["Grade I", "Grade '0'", "Grade '00'", "Grade II"]
   },
   {
     numb: 21,
-    question: "What is the name of the part of adjustable spanner marked as x shown in the figure?",
+    question: "What is the name of the part marked as 'x' shown in the figure?",
     immg: "img21",
-    answer: "Knurl",
-    options: [
-      "Movable jaw",
-      "Stationary jaw",
-      "Handle",
-      "Knurl",
-    ]
+    answer: "Protector slip",
+    options: ["Chamois leather", "Leather pad", "Protector slip", "Steel sheet"]
   },
   {
     numb: 22,
-    question: "What is the use of air ratchet wrench?",
-    answer: "High speed and less torque",
+    question: "What is the use of grade '00' accuracy slip gauges?",
+    immg: "img22",
+    answer: "Calibration grade",
     options: [
-      "High speed and less torque",
-      "Low speed",
-      "More torque",
-      "High speed and more torque",
+      "Inspection grade",
+      "Tool room applications",
+      "General workshop applications",
+      "Calibration grade"
     ]
   },
   {
     numb: 23,
-    question: "What is the use of tab washers?",
-    answer: "Locking the nut at the corner",
-    options: [
-      "Locking the nut at the corner",
-      "Locking the nut at the center",
-      "Locking the nut from the bottom",
-      "Locking the nut from the top",
-    ]
+    question: "Which term refers to the operation of joining the slip gauges together for building up sizes?",
+    immg: "img23",
+    answer: "Wringing",
+    options: ["Honing", "Lapping", "Wringing", "Polishing"]
   },
   {
     numb: 24,
-    question: "What is the use of round key in assembly?",
-    answer: "Secure the component with light torque",
+    question: "What is the advantage of using a pair of special jaws in slip gauge holder?",
+    immg: "img24",
+    answer: "To measure the external & internal dimensions",
     options: [
-      "Secure the component with light torque",
-      "High torque",
-      "Unidirectional torque",
-      "Slide along the shaft",
+      "To measure the external & internal dimensions",
+      "To measure the height",
+      "To measure the steps",
+      "To measure the angular dimensions"
     ]
   },
   {
     numb: 25,
-    question: "What is the use of rotary files?",
-     immg: "img25",
-    answer: "Die sinking and mould-making work",
+    question: "What is the name of the application of slip gauge shown in the figure?",
+    immg: "img25",
+    answer: "Checking center distance of holes",
     options: [
-      "To finish sharp corners",
-      "To sharpening wood-working saws",
-      "Die sinking and mould-making work",
-      "Finish the automobile bodies, after tinkering",
+      "Drawing circles",
+      "Checking height",
+      "Checking center distance of holes",
+      "Layout work"
     ]
   },
   {
     numb: 26,
-    question: "What is the use of rifflers file?",
-    answer: "Silversmith work",
+    question: "What is the purpose of drilled holes in sine bar?",
+    immg: "img26",
+    answer: "To reduce the weight",
     options: [
-      "Finishing sharp corners",
-      "Lock repair",
-      "Silversmith work",
-      "Mould - making work",
+      "Clamping of dial test indicator",
+      "Clamping of slip gauges",
+      "To reduce the weight",
+      "For aesthetic purposes"
     ]
   },
   {
     numb: 27,
-    question: "Which file is used for silversmith work?",
-    answer: "Riffler file",
+    question: "What is the use of Taly - Surf?",
+    immg: "img27",
+    answer: "To measure surface texture",
     options: [
-      "Min saw file",
-      "Riffler file",
-      "Pillar file",
-      "Warding file",
+      "To measure angle",
+      "To measure flatness",
+      "To measure parallelism",
+      "To measure surface texture"
     ]
   },
   {
     numb: 28,
-    question: "What is checked using a template?",
-    answer: "Contour profile of a workpiece",
-    options: [
-      "Diameter of shaft",
-      "Pitch of holes",
-      "Hole size",
-      "Contour profile of a workpiece",
-    ]
+    question: "Which is called as super finishing process?",
+    immg: "img28",
+    answer: "Honing",
+    options: ["Turning", "Milling", "Grinding", "Honing"]
   },
   {
     numb: 29,
-    question: "What is checked using a fillet gauge?",
-    answer: "External corner radius",
-    options: [
-      "Pitch of the thread",
-      "Internal radius",
-      "External corner radius",
-      "Gap between mating components",
-    ]
+    question: "What is the name of the operation that corrects the profiles of cylindrical surfaces and removes taper?",
+    immg: "img29",
+    answer: "Honing",
+    options: ["Boring", "Honing", "Grinding", "Reaming"]
   },
   {
     numb: 30,
-    question: "What is used for placing the instruments during working?",
-     immg: "img30",
-    answer: "Felt pad",
-    options: [
-      "Wooden blank",
-      "Felt pad",
-      "Steel sheet",
-      "Cloth",
-    ]
+    question: "What is the name of the part marked as 'x' shown in the figure?",
+    immg: "img30",
+    answer: "Bronze guide",
+    options: ["Stone", "Bronze guide", "Universal joint", "Expanding body"]
   },
   {
     numb: 31,
-    question: "Which is used to clean the slip gauge?",
-    answer: "Carbon tetrachloride",
+    question: "What is the use of frosting operation?",
+    immg: "img31",
+    answer: "To increase the oil retention on scraped surfaces",
     options: [
-      "Wax",
-      "Kerosene",
-      "Soluble oil",
-      "Carbon tetrachloride",
+      "To decrease the oil retention on scraped surfaces",
+      "To increase the oil retention on milled surfaces",
+      "To increase the oil retention on scraped surfaces",
+      "To decrease the oil retention on milled surfaces"
     ]
   },
   {
     numb: 32,
-    question: "Which is used to clean the lapping plate after charging?",
-     immg: "img32",
-    answer: "Kerosene",
+    question: "Which method of surface hardening is shown in the figure?",
+    immg: "img32",
+    answer: "Pack-carburising",
     options: [
-      "Oil",
-      "Kerosene",
-      "Coolant oil",
-      "Petroleum jelly",
+      "Nitriding",
+      "Pack-carburising",
+      "Flame hardening",
+      "Induction hardening"
     ]
   },
   {
     numb: 33,
-    question: "Which material protects slip gauge from rusting?",
-    answer: "Petroleum jelly",
-    options: [
-      "Oil",
-      "Wax",
-      "Kerosene",
-      "Petroleum jelly",
-    ]
+    question: "Which process refines the structure of steel component?",
+    immg: "img33",
+    answer: "Normalising",
+    options: ["Tempering", "Annealing", "Hardening", "Normalising"]
   },
   {
     numb: 34,
-    question: "Which abrasive is used for lapping soft steel and non-ferrous metals?",
-    answer: "Fused alumina",
+    question: "Which method of surface hardening is done in a heated salt bath?",
+    immg: "img34",
+    answer: "Liquid carburising",
     options: [
-      "Silicon carbide",
-      "Diamond",
-      "Boron carbide",
-      "Fused alumina",
+      "Flame hardening",
+      "Gas carburising",
+      "Pack carburising",
+      "Liquid carburising"
     ]
   },
   {
     numb: 35,
-    question: "Which instrument is used in measuring the external diameter shown in the figure?",
+    question: "Which heat treatment process improves the machinability and ductility of the material?",
     immg: "img35",
-    answer: "Pair of special jaws by using slip gauge",
-    options: [
-      "Vernier caliper",
-      "Outside caliper",
-      "Parallel leg caliper",
-      "Pair of special jaws by using slip gauge",
-    ]
+    answer: "Annealing",
+    options: ["Annealing", "Hardening", "Tempering", "Normalizing"]
   },
   {
     numb: 36,
-    question: "What is the purpose of slit provided in the lapping tool?",
-    answer: "For expansion",
-    options: [
-      "For clearance",
-      "For expansion",
-      "To retain abrasive",
-      "To adjust the sleeve",
-    ]
+    question: "Which metallic coating is done by rolling the layers of metal on to base metal?",
+    immg: "img36",
+    answer: "Cladding",
+    options: ["Spraying", "Cladding", "Enamelling", "Molten metal bath"]
   },
   {
     numb: 37,
-    question: "What is the name of the operation shown in the figure?",
+    question: "Which type of key is screwed on to the shaft key way?",
     immg: "img37",
-    answer: "Lapping large diameter",
+    answer: "Feather key",
     options: [
-      "Internal ring lapping",
-      "External ring lapping",
-      "Lapping internal cylinder",
-      "Lapping large diameter",
+      "Feather key",
+      "Flat saddle key",
+      "Circular taper key",
+      "Hallow saddle key"
     ]
   },
   {
     numb: 38,
-    question: "Which type of abrasive is used in honing cast iron and non-ferrous materials?",
-    answer: "Silicon carbide",
+    question: "What is the purpose of normalising?",
+    immg: "img38",
+    answer: "To remove stress and strain",
     options: [
-      "Diamond",
-      "Boron carbide",
-      "Silicon carbide",
-      "Aluminium oxide",
+      "For adding cutting ability",
+      "For developing high hardness",
+      "To increase wear resistance",
+      "To remove stress and strain"
     ]
   },
   {
     numb: 39,
-    question: "What is the direction of frictional force against a motional object?",
-     immg: "img39",
-    answer: "Opposite to the object",
-    options: [
-      "Inclined to the object",
-      "Opposite to the object",
-      "Parallel to the object",
-      "Perpendicular to the object",
-    ]
+    question: "What is the formula for circumference of a circle?",
+    immg: "img39",
+    answer: "2πr",
+    options: ["πr", "πr²", "2πr", "πd"]
   },
   {
     numb: 40,
-    question: "Which symbol is used to denote co-efficient of friction?",
-     immg: "img40",
-    answer: "µ (Meu)",
-    options: [
-      "α (Alpha)",
-      "µ (Meu)",
-      "β (Beta)",
-      "γ (Gamma)",
-    ]
+    question: "What is the formula for area of the circle?",
+    immg: "img40",
+    answer: "πr²",
+    options: ["πd", "πr²", "2πr", "π/2r"]
   },
   {
     numb: 41,
-    question: "What is the purpose of a lubricant?",
-     immg: "img41",
-    answer: "To reduce friction",
-    options: [
-      "To increase the pressure",
-      "To increase friction",
-      "To reduce friction",
-      "To reduce pressure",
-    ]
+    question: "Which line is called as chord?",
+    immg: "img41",
+    answer: "AB",
+    options: ["ED", "AB", "OD", "OE"]
   },
   {
     numb: 42,
-    question: "Which is used to reduce the friction in machine parts?",
-     immg: "img42",
-    answer: "Lubricants",
+    question: "Which type of stress?",
+    immg: "img42",
+    answer: "Shear stress",
     options: [
-      "Kerosene",
-      "Petrol",
-      "Water",
-      "Lubricants",
+      "Tensile stress",
+      "Compressive stress",
+      "Shear stress",
+      "Torsional stress"
     ]
   },
   {
     numb: 43,
-    question: "Where the centre of gravity of a circle lies?",
-    answer: "At its centre",
-    options: [
-      "At its centre",
-      "Any where on its radius",
-      "Any where on its circumference",
-      "Any where on its diameter",
-    ]
+    question: "What is the unit of strain?",
+    immg: "img43",
+    answer: "No unit",
+    options: ["Kg/cm2", "Newton/metre2", "Metre", "No unit"]
   },
   {
     numb: 44,
-    question: "Which one of the following geometrical shapes centre of gravity lies from its base is 1/3 of its height?",
-    answer: "Triangle",
-    options: [
-      "Square",
-      "Rhombus",
-      "Triangle",
-      "Cone",
-    ]
+    question: "Which symbol is used to express change in length?",
+    immg: "img44",
+    answer: "δl",
+    options: ["L", "δl", "I", "e"]
   },
   {
     numb: 45,
-    question: "Lock nut or check-nut is chamfered on____.",
-    answer: "both side",
+    question: "Riveted joints is a_______",
+    immg: "img45",
+    answer: "permanent joints",
     options: [
-      "upper side",
-      "lower side",
-      "both side",
-      "none sides",
+      "permanent joints",
+      "temporary joints",
+      "semi permanent",
+      "none of these"
     ]
   },
   {
     numb: 46,
-    question: "Rivets are generally, specified by____.",
-     immg: "img46",
-    answer: "nominal diameter",
-    options: [
-      "length of rivet",
-      "diameter of head",
-      "nominal diameter",
-      "all of these",
-    ]
+    question: "Identify the given rivet.",
+    immg: "img46",
+    answer: "Snap head",
+    options: ["Snap head", "Flat head", "Counter sunk", "Pan head"]
   },
   {
     numb: 47,
-    question: "Which of the following is not a main part of rivet?",
-    answer: "Point",
-    options: [
-      "Head",
-      "Shank",
-      "Point",
-      "Tail",
-    ]
+    question: "Which materials pipe is used for drainage pipe line?",
+    immg: "img47",
+    answer: "PVC pipe",
+    options: ["PVC pipe", "Brass Pipe", "G.I. Pipe", "Steel pipe"]
   },
   {
     numb: 48,
-    question: "The thread angle of metric thread is_____.",
-    answer: "60°",
-    options: [
-      "90°",
-      "60°",
-      "30°",
-      "120°",
-    ]
+    question: "Which of the following is used to block the pipe at one end?",
+    immg: "img48",
+    answer: "Plug",
+    options: ["Plug", "Union", "Reducer", "Couplings"]
   },
   {
     numb: 49,
-    question: "The rivet head for a general purpose shown in the figure below is _____",
+    question: "Which one of the following accommodates four pipes in a pipe fitting?",
     immg: "img49",
-    answer: "counter sunk",
-    options: [
-      "snap",
-      "pan",
-      "counter sunk",
-      "flat",
-    ]
+    answer: "Cross",
+    options: ["Union", "Cross", "Elbow", "Tee"]
   },
   {
     numb: 50,
-    question: "The head for boiler application's shown in the figure given below is _____",
+    question: "The Included angle of pipe thread is around______",
     immg: "img50",
-    answer: "steeple",
-    options: [
-      "snap",
-      "pan",
-      "conical",
-      "steeple",
-    ]
-  },
+    answer: "55°",
+    options: ["15°", "55°", "10°", "75°"]
+  }
 ];
+
+
